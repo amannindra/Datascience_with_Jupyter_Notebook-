@@ -51,7 +51,16 @@ After installing Jupyter Notebook or JupyterLab, you can start the server to acc
         ```
         jupyter lab
         ```
-    
+    - Alternatively, if you encounter any issues with the above commands or if Jupyter is not recognized as a command, you can start the notebook server with:
+        ```
+        python -m notebook
+        ```
+        or
+        ```
+        python3 -m notebook
+        ```
+        This method ensures that you're explicitly using the Python interpreter to launch Jupyter, which can help avoid path and environment issues.
+
 3. **Access Jupyter**: Your default web browser should automatically open to the Jupyter dashboard. If it doesn't, you can manually open the browser and enter the URL displayed in your terminal (usually `http://localhost:8888/` or similar).
 
 ## Using Jupyter Notebook
